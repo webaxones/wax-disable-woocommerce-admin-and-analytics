@@ -18,3 +18,5 @@ endif;
  */
 
 add_filter( 'woocommerce_admin_disabled', '__return_true' );
+add_filter( 'woocommerce_admin_features', '__return_empty_array' );
+
